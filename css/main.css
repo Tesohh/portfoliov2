@@ -1,6 +1,55 @@
-
+*{
+    margin:0;
+    padding:0
+}
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
 
 body {
     font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    /* Filvi */
+}
+
+.title {
+    font-weight: normal;
+    margin: 1em;
+    font-size: 96px;
+}
+
+.text-white{
+    color: white;
+}
+
+.bg-dark{
+    background-color: #1a1a1a;
+}
+.debug{
+    border:1px solid white;
+}
+
+.prompt {
+    padding: 0em;
+    border-radius: 1em;
+}
+
+form{
+    display:block;
+}
+
+input[type="text"] {
+    background-color: #414141;
+    color: #ffffff;
+    padding: 1em;
+    border-radius: .5em;
+    border: none;
+    margin-left: 1em;
+    width: 16.5em;
+}
+.font, .font::placeholder,.font[type="text"] {
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+input::placeholder{
+    color: #9C9C9C;
 }
