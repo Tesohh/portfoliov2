@@ -11,9 +11,12 @@ body {
 }
 
 .title {
+    font-family: 'Source Code Pro';
+    font-style: normal;
     font-weight: normal;
-    margin: 1em;
     font-size: 96px;
+    /*line-height: 121px;*/
+    margin:1rem;
 }
 
 .text-white{
@@ -44,6 +47,7 @@ input[type="text"] {
     border: none;
     margin-left: 1em;
     width: 16.5em;
+
 }
 .font, .font::placeholder,.font[type="text"] {
     font-family: 'Source Code Pro', monospace;
