@@ -28,7 +28,7 @@ body {
     margin:1rem;
 }
 
-.text-white{
+.text-white {
     color: white;
 }
 
@@ -56,7 +56,6 @@ input[type="text"] {
     border: none;
     margin-left: 1em;
     width: 16.5em;
-
 }
 .font, .font::placeholder,.font[type="text"] {
     font-family: 'Source Code Pro', monospace;
@@ -76,10 +75,11 @@ input::placeholder{
     max-height: 100%;
 }
 #terminale img {
-    width: auto;
-    max-height: 500px;
-    height: auto;
+    width: 100%;
+    /* max-height: 500px; */
+    height: 100%;
     margin:auto;
+    padding: 100px;
 }
 
 .contenitore {
@@ -93,8 +93,11 @@ img {
 #immagine {
     margin: 10px;
 }
-#terminale {
-    /* width: 100%;
-    height: 100%; */
+#terminale > img {
+    margin:auto!important;
+    display: block;
+}
 
+#terminale {
+    height: 100%;
 }
